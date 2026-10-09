@@ -1,0 +1,44 @@
+/* Upspire Design System: product scopes. Set data-brand on the app root. */
+:root,
+[data-brand="upspire"] {
+  --primary: var(--upspire-primary);
+  --primary-hover: var(--upspire-primary-hover);
+  --primary-tint: var(--upspire-tint);
+  --accent: var(--upspire-accent);
+  --on-primary: var(--upspire-on-primary);
+}
+[data-brand="vsm"] {
+  --primary: var(--vsm-primary);
+  --primary-hover: var(--vsm-primary-hover);
+  --primary-tint: var(--vsm-tint);
+  --accent: var(--vsm-accent);
+  --on-primary: var(--vsm-on-primary);
+}
+[data-brand="nbm"] {
+  --primary: var(--nbm-primary);
+  --primary-hover: var(--nbm-primary-hover);
+  --primary-tint: var(--nbm-tint);
+  --accent: var(--nbm-accent);
+  --on-primary: var(--nbm-on-primary);
+}
+[data-brand="assessment"] {
+  --primary: var(--assessment-primary);
+  --primary-hover: var(--assessment-primary-hover);
+  --primary-tint: var(--assessment-tint);
+  --accent: var(--assessment-accent);
+  --on-primary: var(--assessment-on-primary);
+}
+[data-brand="roles"] {
+  --primary: var(--roles-primary);
+  --primary-hover: var(--roles-primary-hover);
+  --primary-tint: var(--roles-tint);
+  --accent: var(--roles-accent);
+  --on-primary: var(--roles-on-primary);
+}
+[data-brand="perennial"] {
+  --primary: var(--perennial-primary);
+  --primary-hover: var(--perennial-primary-hover);
+  --primary-tint: var(--perennial-tint);
+  --accent: var(--perennial-accent);
+  --on-primary: var(--perennial-on-primary);
+}

@@ -1,0 +1,27 @@
+# Upspire Design System
+
+> Shared design system for the Upspire product family (Volunteer Shift Manager, Board Manager, Nonprofit Assessment, Nonprofit Roles, Perennial Giving, Upspire Studio). Warm paper grounds, Fraunces headings, DM Sans text, pill buttons, one primary and accent color pair per product. Read the global rules first; they override everything else.
+
+## Core
+- [Global rules and foundations](docs/design-system/README.md): color, type, spacing, shape, motion, icons, file map
+- [For AI agents](docs/design-system/06-for-ai-agents.md): what to read per task, CLAUDE.md block for product repos
+
+## Guidelines
+- [Brand architecture](docs/design-system/01-brand-architecture.md)
+- [Logos and marks](docs/design-system/02-logos-and-marks.md)
+- [Voice and writing](docs/design-system/03-voice.md)
+- [UX patterns](docs/design-system/04-ux-patterns.md)
+- [Visuals and imagery](docs/design-system/05-visuals.md)
+
+## Brands
+- [Upspire Studio](docs/design-system/brands/1-upspire.md)
+- [Volunteer Shift Manager](docs/design-system/brands/2-vsm.md)
+- [Board Manager](docs/design-system/brands/3-nbm.md)
+- [Nonprofit Assessment](docs/design-system/brands/4-assessment.md)
+- [Nonprofit Roles](docs/design-system/brands/5-roles.md)
+- [Perennial Giving](docs/design-system/brands/6-perennial.md)
+
+## Tokens and code
+- [tokens.json](tokens/tokens.json): source of truth
+- [tokens.css](styles/tokens.css), [brands.css](styles/brands.css), [tailwind-theme.css](styles/tailwind-theme.css)
+- [Components](components/upspire.d.ts) and their guidelines in docs/design-system/components/

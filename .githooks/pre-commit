@@ -1,0 +1,3 @@
+#!/bin/sh
+# Blocks commits when generated files are stale or a check fails.
+node scripts/build.mjs --check

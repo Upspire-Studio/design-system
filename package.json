@@ -1,0 +1,14 @@
+{
+  "name": "@upspire/design-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upspire Design System: shared tokens, styles, components, marks and guidelines for the Upspire product family.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "hooks": "git config core.hooksPath .githooks"
+  },
+  "files": ["tokens", "styles", "components", "brand", "docs"],
+  "license": "UNLICENSED"
+}

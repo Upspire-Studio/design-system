@@ -1,0 +1,682 @@
+{
+  "$description": "W3C Design Tokens export of tokens/tokens.json. GENERATED; do not edit.",
+  "color": {
+    "light": {
+      "paper": {
+        "$type": "color",
+        "$value": "#FAF6EE",
+        "$description": "Page background in every product. Body text sits on it in `ink`."
+      },
+      "paper-raised": {
+        "$type": "color",
+        "$value": "#FFFDF8",
+        "$description": "Cards, panels, dialogs and inputs that sit on `paper`."
+      },
+      "paper-sunken": {
+        "$type": "color",
+        "$value": "#F1EADC",
+        "$description": "Wells, table header rows, code blocks and quiet tag fills."
+      },
+      "rule": {
+        "$type": "color",
+        "$value": "#E3DACA",
+        "$description": "Hairline dividers and card borders. Decorative only; never the sole boundary of a control."
+      },
+      "rule-strong": {
+        "$type": "color",
+        "$value": "#8F8473",
+        "$description": "Input and control borders. At least 3:1 on `paper` and `paper-raised` in both themes."
+      },
+      "ink": {
+        "$type": "color",
+        "$value": "#221E19",
+        "$description": "Headings and body text on `paper`, `paper-raised` and `paper-sunken`."
+      },
+      "ink-soft": {
+        "$type": "color",
+        "$value": "#5C544A",
+        "$description": "Secondary text, descriptions and metadata on any paper ground."
+      },
+      "ink-faint": {
+        "$type": "color",
+        "$value": "#6E655A",
+        "$description": "Placeholders, timestamps and captions on `paper` and `paper-raised`. Never for body copy."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#2F5FA0",
+        "$description": "The 2px focus ring on every interactive element, offset 2px. Solid, at least 3:1 on every paper ground."
+      },
+      "success": {
+        "$type": "color",
+        "$value": "#3B6B36",
+        "$description": "Success text and icons on `paper`, `paper-raised` and `success-bg`. Always paired with an icon and a word."
+      },
+      "success-bg": {
+        "$type": "color",
+        "$value": "#E7F0E2",
+        "$description": "Success banners and badges."
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#85560A",
+        "$description": "Warning text and icons on `paper`, `paper-raised` and `warning-bg`."
+      },
+      "warning-bg": {
+        "$type": "color",
+        "$value": "#FBF0DA",
+        "$description": "Warning banners and badges."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#A23B2A",
+        "$description": "Error text, destructive buttons and invalid input borders on any paper ground and `danger-bg`."
+      },
+      "danger-bg": {
+        "$type": "color",
+        "$value": "#F8E4DF",
+        "$description": "Error banners and badges."
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#1E5B7A",
+        "$description": "Informational text and icons on any paper ground and `info-bg`."
+      },
+      "info-bg": {
+        "$type": "color",
+        "$value": "#E1EEF4",
+        "$description": "Info banners and badges."
+      },
+      "upspire-primary": {
+        "$type": "color",
+        "$value": "#221E19",
+        "$description": "Upspire Studio signature color (Ink). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "upspire-primary-hover": {
+        "$type": "color",
+        "$value": "#000000",
+        "$description": "Upspire Studio hover and pressed state for `upspire-primary` fills."
+      },
+      "upspire-tint": {
+        "$type": "color",
+        "$value": "#ECE8F6",
+        "$description": "Upspire Studio wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `upspire-primary`."
+      },
+      "upspire-accent": {
+        "$type": "color",
+        "$value": "#6A58A6",
+        "$description": "Upspire Studio accent (Iris). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "upspire-on-primary": {
+        "$type": "color",
+        "$value": "#FAF6EE",
+        "$description": "Text and icons on a `upspire-primary` fill."
+      },
+      "vsm-primary": {
+        "$type": "color",
+        "$value": "#2A5C45",
+        "$description": "Volunteer Shift Manager signature color (Forest). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "vsm-primary-hover": {
+        "$type": "color",
+        "$value": "#1C3D2E",
+        "$description": "Volunteer Shift Manager hover and pressed state for `vsm-primary` fills."
+      },
+      "vsm-tint": {
+        "$type": "color",
+        "$value": "#EBF4EE",
+        "$description": "Volunteer Shift Manager wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `vsm-primary`."
+      },
+      "vsm-accent": {
+        "$type": "color",
+        "$value": "#E8912A",
+        "$description": "Volunteer Shift Manager accent (Amber). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "vsm-on-primary": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text and icons on a `vsm-primary` fill."
+      },
+      "nbm-primary": {
+        "$type": "color",
+        "$value": "#2B3A5C",
+        "$description": "Board Manager signature color (Navy). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "nbm-primary-hover": {
+        "$type": "color",
+        "$value": "#1A2540",
+        "$description": "Board Manager hover and pressed state for `nbm-primary` fills."
+      },
+      "nbm-tint": {
+        "$type": "color",
+        "$value": "#EEF1F8",
+        "$description": "Board Manager wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `nbm-primary`."
+      },
+      "nbm-accent": {
+        "$type": "color",
+        "$value": "#C4603A",
+        "$description": "Board Manager accent (Terracotta). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "nbm-on-primary": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text and icons on a `nbm-primary` fill."
+      },
+      "assessment-primary": {
+        "$type": "color",
+        "$value": "#1E5B62",
+        "$description": "Nonprofit Assessment signature color (Teal). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "assessment-primary-hover": {
+        "$type": "color",
+        "$value": "#17474D",
+        "$description": "Nonprofit Assessment hover and pressed state for `assessment-primary` fills."
+      },
+      "assessment-tint": {
+        "$type": "color",
+        "$value": "#E3EEEE",
+        "$description": "Nonprofit Assessment wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `assessment-primary`."
+      },
+      "assessment-accent": {
+        "$type": "color",
+        "$value": "#C08A2E",
+        "$description": "Nonprofit Assessment accent (Ochre). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "assessment-on-primary": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text and icons on a `assessment-primary` fill."
+      },
+      "roles-primary": {
+        "$type": "color",
+        "$value": "#0B4A63",
+        "$description": "Nonprofit Roles signature color (Harbor). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "roles-primary-hover": {
+        "$type": "color",
+        "$value": "#073649",
+        "$description": "Nonprofit Roles hover and pressed state for `roles-primary` fills."
+      },
+      "roles-tint": {
+        "$type": "color",
+        "$value": "#DDE9EE",
+        "$description": "Nonprofit Roles wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `roles-primary`."
+      },
+      "roles-accent": {
+        "$type": "color",
+        "$value": "#D2553C",
+        "$description": "Nonprofit Roles accent (Coral). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "roles-on-primary": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text and icons on a `roles-primary` fill."
+      },
+      "perennial-primary": {
+        "$type": "color",
+        "$value": "#5E3350",
+        "$description": "Perennial Giving signature color (Berry). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "perennial-primary-hover": {
+        "$type": "color",
+        "$value": "#47253C",
+        "$description": "Perennial Giving hover and pressed state for `perennial-primary` fills."
+      },
+      "perennial-tint": {
+        "$type": "color",
+        "$value": "#F3E8EF",
+        "$description": "Perennial Giving wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `perennial-primary`."
+      },
+      "perennial-accent": {
+        "$type": "color",
+        "$value": "#D49A2A",
+        "$description": "Perennial Giving accent (Marigold). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "perennial-on-primary": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text and icons on a `perennial-primary` fill."
+      }
+    },
+    "dark": {
+      "paper": {
+        "$type": "color",
+        "$value": "#1B1814",
+        "$description": "Page background in every product. Body text sits on it in `ink`."
+      },
+      "paper-raised": {
+        "$type": "color",
+        "$value": "#24201B",
+        "$description": "Cards, panels, dialogs and inputs that sit on `paper`."
+      },
+      "paper-sunken": {
+        "$type": "color",
+        "$value": "#15120F",
+        "$description": "Wells, table header rows, code blocks and quiet tag fills."
+      },
+      "rule": {
+        "$type": "color",
+        "$value": "#3A342C",
+        "$description": "Hairline dividers and card borders. Decorative only; never the sole boundary of a control."
+      },
+      "rule-strong": {
+        "$type": "color",
+        "$value": "#7A6F60",
+        "$description": "Input and control borders. At least 3:1 on `paper` and `paper-raised` in both themes."
+      },
+      "ink": {
+        "$type": "color",
+        "$value": "#F3ECE1",
+        "$description": "Headings and body text on `paper`, `paper-raised` and `paper-sunken`."
+      },
+      "ink-soft": {
+        "$type": "color",
+        "$value": "#C9BFB0",
+        "$description": "Secondary text, descriptions and metadata on any paper ground."
+      },
+      "ink-faint": {
+        "$type": "color",
+        "$value": "#A39886",
+        "$description": "Placeholders, timestamps and captions on `paper` and `paper-raised`. Never for body copy."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#9DBDF0",
+        "$description": "The 2px focus ring on every interactive element, offset 2px. Solid, at least 3:1 on every paper ground."
+      },
+      "success": {
+        "$type": "color",
+        "$value": "#9CC48F",
+        "$description": "Success text and icons on `paper`, `paper-raised` and `success-bg`. Always paired with an icon and a word."
+      },
+      "success-bg": {
+        "$type": "color",
+        "$value": "#1F2A1C",
+        "$description": "Success banners and badges."
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#E9B95E",
+        "$description": "Warning text and icons on `paper`, `paper-raised` and `warning-bg`."
+      },
+      "warning-bg": {
+        "$type": "color",
+        "$value": "#2E2413",
+        "$description": "Warning banners and badges."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#F09A87",
+        "$description": "Error text, destructive buttons and invalid input borders on any paper ground and `danger-bg`."
+      },
+      "danger-bg": {
+        "$type": "color",
+        "$value": "#33191A",
+        "$description": "Error banners and badges."
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#8CC3DE",
+        "$description": "Informational text and icons on any paper ground and `info-bg`."
+      },
+      "info-bg": {
+        "$type": "color",
+        "$value": "#142630",
+        "$description": "Info banners and badges."
+      },
+      "upspire-primary": {
+        "$type": "color",
+        "$value": "#F3ECE1",
+        "$description": "Upspire Studio signature color (Ink). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "upspire-primary-hover": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Upspire Studio hover and pressed state for `upspire-primary` fills."
+      },
+      "upspire-tint": {
+        "$type": "color",
+        "$value": "#241F33",
+        "$description": "Upspire Studio wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `upspire-primary`."
+      },
+      "upspire-accent": {
+        "$type": "color",
+        "$value": "#B3A6E6",
+        "$description": "Upspire Studio accent (Iris). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "upspire-on-primary": {
+        "$type": "color",
+        "$value": "#1B1814",
+        "$description": "Text and icons on a `upspire-primary` fill."
+      },
+      "vsm-primary": {
+        "$type": "color",
+        "$value": "#7FBF9F",
+        "$description": "Volunteer Shift Manager signature color (Forest). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "vsm-primary-hover": {
+        "$type": "color",
+        "$value": "#A3D4BA",
+        "$description": "Volunteer Shift Manager hover and pressed state for `vsm-primary` fills."
+      },
+      "vsm-tint": {
+        "$type": "color",
+        "$value": "#1C2B23",
+        "$description": "Volunteer Shift Manager wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `vsm-primary`."
+      },
+      "vsm-accent": {
+        "$type": "color",
+        "$value": "#F0A54A",
+        "$description": "Volunteer Shift Manager accent (Amber). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "vsm-on-primary": {
+        "$type": "color",
+        "$value": "#10221A",
+        "$description": "Text and icons on a `vsm-primary` fill."
+      },
+      "nbm-primary": {
+        "$type": "color",
+        "$value": "#9DB0DD",
+        "$description": "Board Manager signature color (Navy). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "nbm-primary-hover": {
+        "$type": "color",
+        "$value": "#BCCAEA",
+        "$description": "Board Manager hover and pressed state for `nbm-primary` fills."
+      },
+      "nbm-tint": {
+        "$type": "color",
+        "$value": "#1D2333",
+        "$description": "Board Manager wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `nbm-primary`."
+      },
+      "nbm-accent": {
+        "$type": "color",
+        "$value": "#E08A66",
+        "$description": "Board Manager accent (Terracotta). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "nbm-on-primary": {
+        "$type": "color",
+        "$value": "#121A2E",
+        "$description": "Text and icons on a `nbm-primary` fill."
+      },
+      "assessment-primary": {
+        "$type": "color",
+        "$value": "#7FC0C6",
+        "$description": "Nonprofit Assessment signature color (Teal). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "assessment-primary-hover": {
+        "$type": "color",
+        "$value": "#A3D5DA",
+        "$description": "Nonprofit Assessment hover and pressed state for `assessment-primary` fills."
+      },
+      "assessment-tint": {
+        "$type": "color",
+        "$value": "#172B2D",
+        "$description": "Nonprofit Assessment wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `assessment-primary`."
+      },
+      "assessment-accent": {
+        "$type": "color",
+        "$value": "#DDAA55",
+        "$description": "Nonprofit Assessment accent (Ochre). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "assessment-on-primary": {
+        "$type": "color",
+        "$value": "#0E2326",
+        "$description": "Text and icons on a `assessment-primary` fill."
+      },
+      "roles-primary": {
+        "$type": "color",
+        "$value": "#7DBAD3",
+        "$description": "Nonprofit Roles signature color (Harbor). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "roles-primary-hover": {
+        "$type": "color",
+        "$value": "#A2D0E3",
+        "$description": "Nonprofit Roles hover and pressed state for `roles-primary` fills."
+      },
+      "roles-tint": {
+        "$type": "color",
+        "$value": "#142A33",
+        "$description": "Nonprofit Roles wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `roles-primary`."
+      },
+      "roles-accent": {
+        "$type": "color",
+        "$value": "#EC8670",
+        "$description": "Nonprofit Roles accent (Coral). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "roles-on-primary": {
+        "$type": "color",
+        "$value": "#0A2330",
+        "$description": "Text and icons on a `roles-primary` fill."
+      },
+      "perennial-primary": {
+        "$type": "color",
+        "$value": "#D29AC0",
+        "$description": "Perennial Giving signature color (Berry). Primary buttons, links, selected states and the mark. Text-safe on paper grounds."
+      },
+      "perennial-primary-hover": {
+        "$type": "color",
+        "$value": "#E3B9D5",
+        "$description": "Perennial Giving hover and pressed state for `perennial-primary` fills."
+      },
+      "perennial-tint": {
+        "$type": "color",
+        "$value": "#2C1C27",
+        "$description": "Perennial Giving wash: selected rows, active nav item background, soft highlights. Text on it uses `ink` or `perennial-primary`."
+      },
+      "perennial-accent": {
+        "$type": "color",
+        "$value": "#E6B455",
+        "$description": "Perennial Giving accent (Marigold). Fills, illustration and the one highlighted element of the mark. Never for text on paper."
+      },
+      "perennial-on-primary": {
+        "$type": "color",
+        "$value": "#2A1424",
+        "$description": "Text and icons on a `perennial-primary` fill."
+      }
+    }
+  },
+  "spacing": {
+    "space-1": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Icon-to-label gap inside a badge."
+    },
+    "space-2": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Gap between a label and its input; between buttons in a group."
+    },
+    "space-3": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Compact list rows; badge padding."
+    },
+    "space-4": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Minimum page gutter on phones; input padding."
+    },
+    "space-5": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Card padding on phones; gap between form fields."
+    },
+    "space-6": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "Card padding on desktop; gap between cards."
+    },
+    "space-7": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "Gap between page sections in apps."
+    },
+    "space-8": {
+      "$type": "dimension",
+      "$value": "72px",
+      "$description": "Gap between marketing sections."
+    },
+    "space-9": {
+      "$type": "dimension",
+      "$value": "112px",
+      "$description": "Hero top and bottom padding on desktop marketing pages."
+    }
+  },
+  "radius": {
+    "radius-sm": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$description": "Checkboxes, tags, small chips, mark tiles."
+    },
+    "radius-md": {
+      "$type": "dimension",
+      "$value": "10px",
+      "$description": "Inputs, selects, menus, toasts."
+    },
+    "radius-lg": {
+      "$type": "dimension",
+      "$value": "18px",
+      "$description": "Cards, dialogs, panels."
+    },
+    "radius-pill": {
+      "$type": "dimension",
+      "$value": "999px",
+      "$description": "Buttons, badges and segmented controls: the family's signature shape."
+    }
+  },
+  "shadow": {
+    "shadow-card": {
+      "$type": "shadow",
+      "$value": "0 1px 2px rgba(34, 30, 25, 0.06)",
+      "$description": "Resting cards on `paper`. Borders do most of the work; shadows stay quiet."
+    },
+    "shadow-raised": {
+      "$type": "shadow",
+      "$value": "0 12px 32px rgba(34, 30, 25, 0.10)",
+      "$description": "Hovered interactive cards, menus, dialogs."
+    }
+  },
+  "font": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": "\"Fraunces\", Georgia, \"Times New Roman\", serif"
+    },
+    "sans": {
+      "$type": "fontFamily",
+      "$value": "\"DM Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif"
+    },
+    "display-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "56px",
+        "lineHeight": "60px",
+        "fontWeight": 600,
+        "letterSpacing": "-0.01em"
+      },
+      "$description": "Marketing hero headline, one per page."
+    },
+    "display-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "44px",
+        "lineHeight": "50px",
+        "fontWeight": 600
+      },
+      "$description": "Landing section openers."
+    },
+    "h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "34px",
+        "lineHeight": "40px",
+        "fontWeight": 600
+      },
+      "$description": "App page title. One per screen."
+    },
+    "h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "26px",
+        "lineHeight": "32px",
+        "fontWeight": 600
+      },
+      "$description": "Section headings inside a page."
+    },
+    "h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "21px",
+        "lineHeight": "28px",
+        "fontWeight": 600
+      },
+      "$description": "Card titles and dialog titles."
+    },
+    "body-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "19px",
+        "lineHeight": "30px",
+        "fontWeight": 400
+      },
+      "$description": "Lead paragraphs and marketing body."
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "17px",
+        "lineHeight": "27px",
+        "fontWeight": 400
+      },
+      "$description": "Default reading text in every product."
+    },
+    "ui": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "15px",
+        "lineHeight": "22px",
+        "fontWeight": 500
+      },
+      "$description": "Buttons, inputs, table cells, nav items."
+    },
+    "ui-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "15px",
+        "lineHeight": "22px",
+        "fontWeight": 700
+      },
+      "$description": "Button labels and emphasized UI text."
+    },
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": 700,
+        "letterSpacing": "0.1em"
+      },
+      "$description": "Uppercase eyebrows and table column headers. Set text-transform: uppercase."
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "13px",
+        "lineHeight": "18px",
+        "fontWeight": 400
+      },
+      "$description": "Helper text, timestamps, footnotes."
+    }
+  }
+}

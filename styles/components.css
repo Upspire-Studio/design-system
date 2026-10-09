@@ -1,0 +1,144 @@
+/* Upspire Design System: component styles for components/upspire.js. Requires tokens.css and brands.css. */
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+.ups-scope {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 27px;
+}
+
+/* Button */
+.ups-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: 0 22px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid transparent;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+.ups-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.ups-btn[disabled] { cursor: not-allowed; opacity: 0.5; }
+.ups-btn--primary { background: var(--primary); color: var(--on-primary); }
+.ups-btn--primary:hover:not([disabled]) { background: var(--primary-hover); }
+.ups-btn--secondary { background: transparent; color: var(--ink); border-color: var(--rule-strong); }
+.ups-btn--secondary:hover:not([disabled]) { border-color: var(--ink); }
+.ups-btn--quiet { background: transparent; color: var(--primary); padding: 0 12px; }
+.ups-btn--quiet:hover:not([disabled]) { background: var(--primary-tint); }
+.ups-btn--danger { background: var(--danger); color: var(--paper-raised); }
+.ups-btn--sm { min-height: 36px; padding: 0 16px; font-size: 14px; }
+.ups-btn svg { width: 18px; height: 18px; flex: none; }
+
+/* Field */
+.ups-field { display: flex; flex-direction: column; gap: var(--space-2); }
+.ups-field__label { font-size: 15px; line-height: 22px; font-weight: 700; color: var(--ink); }
+.ups-field__input {
+  min-height: 44px;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--rule-strong);
+  background: var(--paper-raised);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 22px;
+}
+.ups-field__input::placeholder { color: var(--ink-faint); }
+.ups-field__input:hover { border-color: var(--ink-soft); }
+.ups-field__input:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-color: var(--ink-soft); }
+.ups-field__input[aria-invalid="true"] { border-color: var(--danger); }
+.ups-field__hint { font-size: 13px; line-height: 18px; color: var(--ink-soft); }
+.ups-field__error { display: flex; align-items: center; gap: var(--space-1); font-size: 13px; line-height: 18px; font-weight: 500; color: var(--danger); }
+.ups-field__error svg { width: 16px; height: 16px; flex: none; }
+
+/* Card */
+.ups-card {
+  box-sizing: border-box;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.ups-card--interactive { transition: box-shadow 180ms ease, transform 180ms ease; cursor: pointer; }
+.ups-card--interactive:hover { box-shadow: var(--shadow-raised); transform: translateY(-2px); }
+.ups-card--sunken { background: var(--paper-sunken); box-shadow: none; }
+.ups-card__eyebrow { font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); }
+.ups-card__title { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 21px; line-height: 28px; color: var(--ink); }
+.ups-card__body { margin: 0; font-size: 15px; line-height: 23px; color: var(--ink-soft); }
+@media (max-width: 600px) { .ups-card { padding: var(--space-5); } }
+@media (prefers-reduced-motion: reduce) {
+  .ups-card--interactive, .ups-btn { transition: none; }
+  .ups-card--interactive:hover { transform: none; }
+}
+
+/* Badge */
+.ups-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  background: var(--paper-sunken);
+  color: var(--ink-soft);
+}
+.ups-badge svg { width: 14px; height: 14px; flex: none; }
+.ups-badge--success { background: var(--success-bg); color: var(--success); }
+.ups-badge--warning { background: var(--warning-bg); color: var(--warning); }
+.ups-badge--danger { background: var(--danger-bg); color: var(--danger); }
+.ups-badge--info { background: var(--info-bg); color: var(--info); }
+.ups-badge--brand { background: var(--primary-tint); color: var(--primary); }
+
+/* Alert */
+.ups-alert {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  line-height: 23px;
+  color: var(--ink);
+}
+.ups-alert svg { width: 20px; height: 20px; flex: none; margin-top: 1px; }
+.ups-alert__title { font-weight: 700; }
+.ups-alert--success { background: var(--success-bg); }
+.ups-alert--success svg { color: var(--success); }
+.ups-alert--warning { background: var(--warning-bg); }
+.ups-alert--warning svg { color: var(--warning); }
+.ups-alert--danger { background: var(--danger-bg); }
+.ups-alert--danger svg { color: var(--danger); }
+.ups-alert--info { background: var(--info-bg); }
+.ups-alert--info svg { color: var(--info); }
+
+/* ProductMark and Endorsement */
+.ups-mark { display: inline-block; flex: none; }
+.ups-lockup { display: inline-flex; align-items: center; gap: var(--space-3); color: var(--ink); }
+.ups-lockup__name { font-family: var(--font-display); font-weight: 600; font-size: 22px; line-height: 26px; }
+.ups-endorse { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 13px; line-height: 18px; color: var(--ink-soft); }
+.ups-endorse a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.ups-endorse a:hover { color: var(--ink); }
+.ups-endorse a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
